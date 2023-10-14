@@ -57,7 +57,7 @@ header ul li a:hover{
     color: rgb(43, 17, 87);
 }
 .main{
-    background-image: url(tlo1\ \(2\).JPG);
+    background-image: url(zdj4.JPG);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -66,6 +66,7 @@ header ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s;
     
 }
 .main p{
@@ -421,7 +422,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1700px) {
     .dane{
         height: 150vh;
         display: flex;
@@ -429,7 +430,56 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .zdjecie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .jeden{
+        margin-right: 10px;
+    }
+    .dwa{
+        margin-left: 10px;
+    }
 }
-    
-
+@media only screen and (max-width: 1700px) {
+    .wykres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
+    .jeden{
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dwa{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dane{
+        height: 180vh;
+    }
+    .kafelki{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+}
 

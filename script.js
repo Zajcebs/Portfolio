@@ -41,7 +41,26 @@
                 }
             })
  
-        
+//////////////////////////////////////////////
+
+            const code1 = () => {
+                const main = document.querySelector('.main')
+                let tic = 1;
+                setInterval(() => {
+
+                        if (tic <= 4) {
+                            main.style.backgroundImage=`url(zdj${tic}.JPG)`;
+                            tic++;
+                        }
+                        else if(tic >4){
+                            tic =1
+                        }
+
+  
+                }, 3000);       
+            }
+            document.addEventListener('DOMContentLoaded',code1);
+
 /////////////////////////////////////////////
         
         const txt = document.querySelector('.animacja');
