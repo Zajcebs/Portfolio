@@ -488,3 +488,38 @@ footer{
     }
 }
 
+@media only screen and (max-width: 500px) {
+
+    span{
+        display: none;
+    }
+    .logo{
+        display: block;
+        justify-content: flex-start;
+    }
+    .web, .deve, .app{
+        height: 40vh;
+        width: 80%;
+    }
+    .dane{
+        width: 100%;
+        height: 220vh;
+    }
+    .zdjecie img{
+        border-radius: 100%;
+        scale: 30%;
+        display: block;
+        margin-top: -300px;
+    }
+    .zdjecie{
+        height: 50vh;
+        margin: 0;
+        padding: 0;
+    }
+    .opiss{
+        width: 100%;
+    }
+    button{
+        width: 200px;
+    }
+}
