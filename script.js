@@ -50,6 +50,7 @@
 
                         if (tic <= 4) {
                             main.style.backgroundImage=`url(zdj${tic}.JPG)`;
+                            main.style.backgroundColor=`rgba(0, 0, 0,);`
                             tic++;
                         }
                         else if(tic >4){
