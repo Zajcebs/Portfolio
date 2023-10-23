@@ -8,7 +8,6 @@
 
             window.addEventListener("scroll",()=>{
                 let scroll = Math.floor(window.scrollY);
-                console.log(scroll)
                 if(scroll > 2100)
                 {
                     setInterval(() => {
@@ -64,7 +63,7 @@
 
 /////////////////////////////////////////////
         
-        const txt = document.querySelector('.animacja');
+        const txt = document.querySelector('.jd');
         
         const code = () => {
             let table = ['Jestem Maciej Zajączek','Jestem Web Developerem(*Nigdy nie bede*)','Potrafie robic piekne strony(*nie potrafie xd*)','Salamalecooooo malecoooo salaaaaaaa'] 
@@ -89,4 +88,12 @@
 /////////////////////////////////////////////////////////////
 
 
-        
+        const btn = document.querySelector('.btn');
+        let las = 0;
+        const codee = () => {
+            const dropd = document.querySelector('.dropdown-content');
+            const dad = document.querySelector('.dad');
+            dropd.style.display='flex'
+            dad.style.display='flex'
+        }
+        btn.addEventListener('click', codee);
